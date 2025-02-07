@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
 
   # Static Framework Configuration
   s.static_framework = true
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '15.0'
 
   # Architecture Configurations
   s.pod_target_xcconfig = {
