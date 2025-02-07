@@ -1,50 +1,48 @@
 Pod::Spec.new do |s|
+  # Framework Metadata
   s.name             = 'achalasecurelib'
   s.version          = '1.0.0'
   s.summary          = 'A library for secure face detection and ML model inference using Google ML Kit and TensorFlow Lite.'
-  s.description      = 'AchalaSecureLib is an iOS framework that integrates Google ML Kit Face Detection and TensorFlow Lite to run machine learning models on iOS.'
+  s.description      = <<-DESC
+                       AchalaSecureLib is an iOS framework that integrates Google ML Kit Face Detection and TensorFlow Lite to run machine learning models on iOS.
+                       It provides tools for secure face detection and inference, making it ideal for applications requiring advanced security features.
+                       NOTE: This framework works only on real iOS devices and does not support iOS simulators.
+                       DESC
   s.homepage         = 'https://github.com/KimsHOS/achalasecurelib'
-  
-  # ✅ Ensure the license file is included
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  
-  # ✅ Update author details (replace with actual info)
   s.author           = { 'Your Name' => 'your.email@example.com' }
-  
-  # ✅ Ensure the correct Git source and tag
+
+  # Source Code and Versioning
   s.source           = { :git => 'https://github.com/KimsHOS/achalasecurelib.git', :tag => s.version.to_s }
-  
-  # ✅ Set the correct iOS deployment target
-  s.ios.deployment_target = '15.6'
-  
-  # ✅ Specify Swift version
+
+  # Deployment Target and Swift Version
   s.swift_version    = '5.0'
 
-  # ✅ Include source files
+  # Source Files
   s.source_files     = 'achalasecurelib/**/*.{h,m,swift}'
   s.requires_arc     = true
 
-  # ✅ Declare dependencies
+  # Dependencies
   s.dependency 'GoogleMLKit/FaceDetection', '7.0.0'
   s.dependency 'TensorFlowLiteSwift'
 
-  # ✅ Required frameworks and libraries
+  # Required Frameworks and Libraries
   s.frameworks       = 'Foundation', 'UIKit'
   s.libraries        = 'c++'
 
-  # ✅ Ensure the framework is statically linked
+  # Static Framework Configuration
   s.static_framework = true
+  s.ios.deployment_target = '12.0'
 
-  # ✅ Fix architecture issues
+  # Architecture Configurations
   s.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
-    'ONLY_ACTIVE_ARCH' => 'NO',
-    'VALID_ARCHS' => 'arm64 armv7',
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64', # Exclude all simulator architectures
+    'ONLY_ACTIVE_ARCH' => 'YES',
+    'VALID_ARCHS' => 'arm64', # Only support arm64 (real devices)
     'ARCHS' => '$(ARCHS_STANDARD)',
     'DEFINES_MODULE' => 'YES'
   }
-
   s.user_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64' # Ensure compatibility with user projects
   }
 end
