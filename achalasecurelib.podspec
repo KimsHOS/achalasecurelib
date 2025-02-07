@@ -33,16 +33,4 @@ Pod::Spec.new do |s|
   # Static Framework Configuration
   s.static_framework = true
   s.ios.deployment_target = '15.0'
-
-  # Architecture Configurations
-  s.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64', # Exclude all simulator architectures
-    'ONLY_ACTIVE_ARCH' => 'YES',
-    'VALID_ARCHS' => 'arm64', # Only support arm64 (real devices)
-    'ARCHS' => '$(ARCHS_STANDARD)',
-    'DEFINES_MODULE' => 'YES'
-  }
-  s.user_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64' # Ensure compatibility with user projects
-  }
 end
