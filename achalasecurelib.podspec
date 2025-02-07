@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.swift_versions = ['5.0']
 
   # ✅ Using a precompiled .framework
-  spec.vendored_frameworks = 'achalasecurelib.framework'
+  spec.vendored_frameworks = 'achalasecurelib_build/products/library/frameworks/achalasecurelib.framework'
 
   # ✅ Ensure it's dynamically linked (if needed)
   spec.static_framework = false
