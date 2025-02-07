@@ -1,10 +1,10 @@
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+# Set the minimum deployment target to 12.0 (required for GoogleMLKit)
+platform :ios, '12.0'
 
 target 'achalasecurelib' do
   use_frameworks!
 
-  # Pods for achalasecurelib
+  # Dependencies
   pod 'GoogleMLKit/FaceDetection', '7.0.0'
   pod 'TensorFlowLiteSwift', '2.17.0'
 
@@ -12,5 +12,14 @@ target 'achalasecurelib' do
     inherit! :search_paths
     # Pods for testing
   end
+end
 
+# Fix architecture issues for Apple Silicon and iOS Simulator builds
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      # Ensure arm64 and x86_64 are included
+      config.build_settings['EXCLUDED_ARCHS[sdk=iphonesimulator*]'] = ''
+    end
+  end
 end

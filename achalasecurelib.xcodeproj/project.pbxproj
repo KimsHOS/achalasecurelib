@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82F88CD6F2A80355DC705E7F /* Pods_achalasecurelibTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A47FFADAB3AD8A3F2B52C55 /* Pods_achalasecurelibTests.framework */; };
+		89890898A5686C55F281AB03 /* Pods_achalasecurelib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68881CE5E58EE6E4EBABAEA2 /* Pods_achalasecurelib.framework */; };
 		C5ED96722D54DD1E0081A67B /* achalasecurelib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5ED96672D54DD1E0081A67B /* achalasecurelib.framework */; };
-		CD79C45EA62AE1535A9F462F /* Pods_achalasecurelibTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15C914C5457E612CCCA6A82 /* Pods_achalasecurelibTests.framework */; };
-		E69A0463BE86BA2579508B64 /* Pods_achalasecurelib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B78429C4070B00B6060BFE /* Pods_achalasecurelib.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,14 +23,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0EEF442E0767BFD3C2AA40D3 /* Pods-achalasecurelibTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-achalasecurelibTests.debug.xcconfig"; path = "Target Support Files/Pods-achalasecurelibTests/Pods-achalasecurelibTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4D282AF8B35EA14496B1D91A /* Pods-achalasecurelibTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-achalasecurelibTests.release.xcconfig"; path = "Target Support Files/Pods-achalasecurelibTests/Pods-achalasecurelibTests.release.xcconfig"; sourceTree = "<group>"; };
-		73B78429C4070B00B6060BFE /* Pods_achalasecurelib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_achalasecurelib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		85AC5EBCF919E7D7854E5B7D /* Pods-achalasecurelib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-achalasecurelib.release.xcconfig"; path = "Target Support Files/Pods-achalasecurelib/Pods-achalasecurelib.release.xcconfig"; sourceTree = "<group>"; };
-		B53CFD17FF3DF6CB15E4A8B3 /* Pods-achalasecurelib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-achalasecurelib.debug.xcconfig"; path = "Target Support Files/Pods-achalasecurelib/Pods-achalasecurelib.debug.xcconfig"; sourceTree = "<group>"; };
+		5203E106B59B3B2F22C17F84 /* Pods-achalasecurelib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-achalasecurelib.debug.xcconfig"; path = "Target Support Files/Pods-achalasecurelib/Pods-achalasecurelib.debug.xcconfig"; sourceTree = "<group>"; };
+		57890F01AC53B593CB2C0D99 /* Pods-achalasecurelibTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-achalasecurelibTests.debug.xcconfig"; path = "Target Support Files/Pods-achalasecurelibTests/Pods-achalasecurelibTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A47FFADAB3AD8A3F2B52C55 /* Pods_achalasecurelibTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_achalasecurelibTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68881CE5E58EE6E4EBABAEA2 /* Pods_achalasecurelib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_achalasecurelib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5ED96672D54DD1E0081A67B /* achalasecurelib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = achalasecurelib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5ED96712D54DD1E0081A67B /* achalasecurelibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = achalasecurelibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E15C914C5457E612CCCA6A82 /* Pods_achalasecurelibTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_achalasecurelibTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D4FB33E17A317B35DC73D9 /* Pods-achalasecurelib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-achalasecurelib.release.xcconfig"; path = "Target Support Files/Pods-achalasecurelib/Pods-achalasecurelib.release.xcconfig"; sourceTree = "<group>"; };
+		EFBD4FD94ADACF003312915A /* Pods-achalasecurelibTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-achalasecurelibTests.release.xcconfig"; path = "Target Support Files/Pods-achalasecurelibTests/Pods-achalasecurelibTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -54,6 +54,8 @@
 		};
 		C5ED96752D54DD1E0081A67B /* achalasecurelibTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = achalasecurelibTests;
 			sourceTree = "<group>";
 		};
@@ -64,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E69A0463BE86BA2579508B64 /* Pods_achalasecurelib.framework in Frameworks */,
+				89890898A5686C55F281AB03 /* Pods_achalasecurelib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +75,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5ED96722D54DD1E0081A67B /* achalasecurelib.framework in Frameworks */,
-				CD79C45EA62AE1535A9F462F /* Pods_achalasecurelibTests.framework in Frameworks */,
+				82F88CD6F2A80355DC705E7F /* Pods_achalasecurelibTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,12 +85,21 @@
 		16BCEE34D6DAE1CC29095BEA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B53CFD17FF3DF6CB15E4A8B3 /* Pods-achalasecurelib.debug.xcconfig */,
-				85AC5EBCF919E7D7854E5B7D /* Pods-achalasecurelib.release.xcconfig */,
-				0EEF442E0767BFD3C2AA40D3 /* Pods-achalasecurelibTests.debug.xcconfig */,
-				4D282AF8B35EA14496B1D91A /* Pods-achalasecurelibTests.release.xcconfig */,
+				5203E106B59B3B2F22C17F84 /* Pods-achalasecurelib.debug.xcconfig */,
+				D4D4FB33E17A317B35DC73D9 /* Pods-achalasecurelib.release.xcconfig */,
+				57890F01AC53B593CB2C0D99 /* Pods-achalasecurelibTests.debug.xcconfig */,
+				EFBD4FD94ADACF003312915A /* Pods-achalasecurelibTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		63F2DF2ADA09BE58DBCBAF92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68881CE5E58EE6E4EBABAEA2 /* Pods_achalasecurelib.framework */,
+				5A47FFADAB3AD8A3F2B52C55 /* Pods_achalasecurelibTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C5ED965D2D54DD1E0081A67B = {
@@ -98,7 +109,7 @@
 				C5ED96752D54DD1E0081A67B /* achalasecurelibTests */,
 				C5ED96682D54DD1E0081A67B /* Products */,
 				16BCEE34D6DAE1CC29095BEA /* Pods */,
-				C8D693AA904C40CB984754C4 /* Frameworks */,
+				63F2DF2ADA09BE58DBCBAF92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,15 +120,6 @@
 				C5ED96712D54DD1E0081A67B /* achalasecurelibTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		C8D693AA904C40CB984754C4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				73B78429C4070B00B6060BFE /* Pods_achalasecurelib.framework */,
-				E15C914C5457E612CCCA6A82 /* Pods_achalasecurelibTests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,12 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5ED967A2D54DD1E0081A67B /* Build configuration list for PBXNativeTarget "achalasecurelib" */;
 			buildPhases = (
-				777D456D382F14AED5C33FEC /* [CP] Check Pods Manifest.lock */,
+				7190AA9076EF300DAB36E265 /* [CP] Check Pods Manifest.lock */,
 				C5ED96622D54DD1E0081A67B /* Headers */,
 				C5ED96632D54DD1E0081A67B /* Sources */,
 				C5ED96642D54DD1E0081A67B /* Frameworks */,
 				C5ED96652D54DD1E0081A67B /* Resources */,
-				20D405DF6ED9AD5ED0C8557E /* [CP] Copy Pods Resources */,
+				F32C03101CDB5808834D421B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -160,7 +162,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5ED967F2D54DD1E0081A67B /* Build configuration list for PBXNativeTarget "achalasecurelibTests" */;
 			buildPhases = (
-				888CFB0F43552B34EB88FDE4 /* [CP] Check Pods Manifest.lock */,
+				FCB13D4A9F54C6D990EB0037 /* [CP] Check Pods Manifest.lock */,
 				C5ED966D2D54DD1E0081A67B /* Sources */,
 				C5ED966E2D54DD1E0081A67B /* Frameworks */,
 				C5ED966F2D54DD1E0081A67B /* Resources */,
@@ -234,24 +236,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		20D405DF6ED9AD5ED0C8557E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-achalasecurelib/Pods-achalasecurelib-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-achalasecurelib/Pods-achalasecurelib-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-achalasecurelib/Pods-achalasecurelib-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		777D456D382F14AED5C33FEC /* [CP] Check Pods Manifest.lock */ = {
+		7190AA9076EF300DAB36E265 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -273,7 +258,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		888CFB0F43552B34EB88FDE4 /* [CP] Check Pods Manifest.lock */ = {
+		F32C03101CDB5808834D421B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-achalasecurelib/Pods-achalasecurelib-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-achalasecurelib/Pods-achalasecurelib-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-achalasecurelib/Pods-achalasecurelib-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCB13D4A9F54C6D990EB0037 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -325,7 +327,7 @@
 /* Begin XCBuildConfiguration section */
 		C5ED967B2D54DD1E0081A67B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B53CFD17FF3DF6CB15E4A8B3 /* Pods-achalasecurelib.debug.xcconfig */;
+			baseConfigurationReference = 5203E106B59B3B2F22C17F84 /* Pods-achalasecurelib.debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
@@ -370,7 +372,7 @@
 		};
 		C5ED967C2D54DD1E0081A67B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85AC5EBCF919E7D7854E5B7D /* Pods-achalasecurelib.release.xcconfig */;
+			baseConfigurationReference = D4D4FB33E17A317B35DC73D9 /* Pods-achalasecurelib.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
@@ -541,7 +543,7 @@
 		};
 		C5ED96802D54DD1E0081A67B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EEF442E0767BFD3C2AA40D3 /* Pods-achalasecurelibTests.debug.xcconfig */;
+			baseConfigurationReference = 57890F01AC53B593CB2C0D99 /* Pods-achalasecurelibTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -558,7 +560,7 @@
 		};
 		C5ED96812D54DD1E0081A67B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D282AF8B35EA14496B1D91A /* Pods-achalasecurelibTests.release.xcconfig */;
+			baseConfigurationReference = EFBD4FD94ADACF003312915A /* Pods-achalasecurelibTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
