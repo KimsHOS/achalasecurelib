@@ -164,7 +164,8 @@ import UIKit
 import Vision
 import AVFoundation
 import CoreML
-import MLKit
+import MLKitFaceDetection
+import MLKitVision
 
 class Comparison {
     private var context: UIViewController?

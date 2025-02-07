@@ -1,8 +1,9 @@
 import SwiftUI
 import UIKit
 import AVFoundation
-import MLKit
 import Vision
+import MLKitFaceDetection
+import MLKitVision
 
 struct ContentView1: View {
     @State private var isCameraPresented = false

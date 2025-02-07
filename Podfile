@@ -6,7 +6,7 @@ target 'achalasecurelib' do
 
   # Pods for achalasecurelib
   pod 'GoogleMLKit/FaceDetection', '7.0.0'
-  pod 'TensorFlowLiteSwift'
+  pod 'TensorFlowLiteSwift', '2.17.0'
 
   target 'achalasecurelibTests' do
     inherit! :search_paths
