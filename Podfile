@@ -1,5 +1,5 @@
 # Set the minimum deployment target to 12.0 (required for GoogleMLKit)
-#platform :ios, '12.0'
+platform :ios, '12.0'
 
 target 'achalasecurelib' do
   use_frameworks!
