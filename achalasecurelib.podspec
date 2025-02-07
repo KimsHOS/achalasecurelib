@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
 
   # Dependencies
-  s.dependency 'GoogleMLKit/FaceDetection', '7.0.0'
+  s.dependency 'GoogleMLKit/FaceDetection'
   s.dependency 'TensorFlowLiteSwift'
 
   # Required Frameworks and Libraries
