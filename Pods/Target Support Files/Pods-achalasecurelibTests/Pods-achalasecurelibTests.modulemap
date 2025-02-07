@@ -1,0 +1,6 @@
+framework module Pods_achalasecurelibTests {
+  umbrella header "Pods-achalasecurelibTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
