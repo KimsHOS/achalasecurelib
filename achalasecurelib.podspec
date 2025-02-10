@@ -31,8 +31,5 @@ Pod::Spec.new do |s|
   }
   
   # Force dynamic linking for dependencies
-  s.static_framework = false # Ensures this pod is treated as a dynamic framework
-  
-  # Validate transitive dependencies
-  s.pod_target_xcconfig['OTHER_SWIFT_FLAGS'] = '-D COCOAPODS'
+  s.static_framework = false # Ensures this pod is treated as a dynamic framewor
 end
