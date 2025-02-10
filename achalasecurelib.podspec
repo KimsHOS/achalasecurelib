@@ -28,5 +28,5 @@ Pod::Spec.new do |s|
   # s.vendored_frameworks = 'achalasecurelib/Frameworks/TensorFlowLiteSwift.xcframework'
 
   # Make this pod static to match TensorFlowLiteSwift
-  s.static_framework = true
+  s.static_framework = false
 end
