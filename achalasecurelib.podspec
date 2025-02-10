@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   
   # Dependencies
   s.dependency 'GoogleMLKit/FaceDetection', '7.0.0' # Ensure this version supports dynamic frameworks
-  s.dependency 'TensorFlowLiteSwift', '~> 2.12.0' # Specify a compatible version
+  s.dependency 'TensorFlowLiteSwift' # Specify a compatible version
   
   # Frameworks and Libraries
   s.frameworks       = 'Foundation', 'UIKit'
