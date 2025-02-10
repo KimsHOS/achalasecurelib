@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
   s.requires_arc         = true
 
   # ✅ Dependencies
-  s.dependency 'GoogleMLKit/FaceDetection', '7.0.0'    # MLKit
-  s.dependency 'TensorFlowLiteSwift', '2.12.0'         # <-- Added TensorFlowLite Dependency
+  s.dependency 'GoogleMLKit/FaceDetection'    # MLKit
+  s.dependency 'TensorFlowLiteSwift'        # <-- Added TensorFlowLite Dependency
 
   # ✅ Frameworks and Libraries
   s.frameworks = 'Foundation', 'UIKit'
@@ -28,5 +28,5 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'achalasecurelib_build/products/library/frameworks/achalasecurelib.framework'
 
   # ✅ Ensure it's dynamically linked
-  s.static_framework = false
+  s.static_framework = true
 end
