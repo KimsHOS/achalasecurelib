@@ -16,6 +16,9 @@ Pod::Spec.new do |s|
   s.source_files         = 'achalasecurelib/**/*.{h,m,swift}'
   s.requires_arc         = true
 
+  # ✅ Dependencies
+  s.dependency 'GoogleMLKit/FaceDetection', '7.0.0'  # <-- Added MLKit Dependency
+
   # ✅ Frameworks and Libraries
   s.frameworks = 'Foundation', 'UIKit'
   s.libraries  = 'c++'
