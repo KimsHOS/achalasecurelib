@@ -8,24 +8,29 @@ Pod::Spec.new do |s|
   s.author           = { 'Your Name' => 'your.email@example.com' }
   s.source           = { :git => 'https://github.com/KimsHOS/achalasecurelib.git', :tag => s.version.to_s }
 
-  # Deployment target and Swift version
-  s.ios.deployment_target = '15.6'
+  # Minimum deployment target should be 12.0+
+  s.ios.deployment_target = '12.0'
   s.swift_version    = '5.0'
 
   # Source files
   s.source_files     = 'achalasecurelib/**/*.{h,m,swift}'
+
+  # Static Frameworks & Libraries
+  s.static_framework = true  # TensorFlowLiteSwift is a static library; set this to true
   s.requires_arc     = true
 
   # Dependencies
-  s.dependency 'GoogleMLKit/FaceDetection', '7.0.0' # Ensure compatibility
-
-  # Use TensorFlowLiteSwift as a static framework
-  s.vendored_frameworks = 'Frameworks/TensorFlowLiteSwift.xcframework'
+  s.dependency 'GoogleMLKit/FaceDetection', '7.0.0' 
+  s.dependency 'TensorFlowLiteSwift'
 
   # Frameworks and Libraries
   s.frameworks       = 'Foundation', 'UIKit'
   s.libraries        = 'c++'
 
-  # Make this pod static to match TensorFlowLiteSwift
-  s.static_framework = true
+  # Vendored frameworks (if you are using custom-built frameworks, specify them)
+  s.vendored_frameworks = 'achalasecurelib/Frameworks/*.framework'
+
+  # Exclude unnecessary files from being included in the Pod
+  s.exclude_files = "achalasecurelib/Exclude/*"
+
 end
