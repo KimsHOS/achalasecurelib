@@ -988,15 +988,4 @@ class CameraViewController: UIViewController, AVCaptureVideoDataOutputSampleBuff
     ContentView1()
 }
 
-//Users/emri/desktop/emri/achalasecure/achalasecurelib
 
-//\git tag -d 1.0.0               # Delete local tag
-//git push origin --delete 1.0.0 # Delete remote tag
-//
-//git tag 1.0.0                  # Recreate tag
-//git push origin 1.0.0          # Push updated tag
-//
-//git tag -d 1.0.0
-//git push origin --delete 1.0.0
-//git tag 1.0.0
-//git push origin 1.0.0
