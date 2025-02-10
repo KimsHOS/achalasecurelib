@@ -8,25 +8,21 @@ Pod::Spec.new do |s|
   s.author           = { 'Your Name' => 'your.email@example.com' }
   s.source           = { :git => 'https://github.com/KimsHOS/achalasecurelib.git', :tag => s.version.to_s }
 
-  # Deployment target and Swift version
+  # ✅ iOS Deployment Target
   s.ios.deployment_target = '15.6'
-  s.swift_version    = '5.0'
+  s.swift_version         = '5.0'
 
-  # Source files
-  s.source_files     = 'achalasecurelib/**/*.{h,m,swift}'
-  s.requires_arc     = true
+  # ✅ Source files
+  s.source_files         = 'achalasecurelib/**/*.{h,m,swift}'
+  s.requires_arc         = true
 
-  # Dependencies
-  s.dependency 'GoogleMLKit/FaceDetection', '7.0.0' 
- 
+  # ✅ Frameworks and Libraries
+  s.frameworks = 'Foundation', 'UIKit'
+  s.libraries  = 'c++'
 
-  # Frameworks and Libraries
-  s.frameworks       = 'Foundation', 'UIKit'
-  s.libraries        = 'c++'
+  # ✅ Using a precompiled .xcframework
+  s.vendored_frameworks = 'achalasecurelib_build/products/library/frameworks/achalasecurelib.framework'
 
-  # If you are using a prebuilt TensorFlowLite framework, reference it properly
-  # s.vendored_frameworks = 'achalasecurelib/Frameworks/TensorFlowLiteSwift.xcframework'
-
-  # Make this pod static to match TensorFlowLiteSwift
+  # ✅ Ensure it's dynamically linked
   s.static_framework = false
 end
